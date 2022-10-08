@@ -1,3 +1,11 @@
+var dateInput = document.querySelector("bday-input");
+var checkBtn = document.querySelector("#check-btn");
+var output = document.querySelector("#output");
+
+
+
+
+
 function reverseStr(str) {
   var listOfChars = str.split("");
   var reverseListOfChars = listOfChars.reverse;
@@ -58,3 +66,5 @@ var date = {
   year: 2020
 };
 console.log(getAllDateFormats(date));
+
+

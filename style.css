@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Open+Sans&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+
+
+body {
+    /* background-color: #6d28d9; */
+    background-image: linear-gradient(#41138b, #784bfc);
+    height:100vh;
+    font-family: 'Roboto', sans-serif;
+}
+#flex-box {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1 {
+    /* align-self: center; */
+    font-size: 8rem;
+    color: white;
+    align-self: center;
+    margin-block-end: 0px;
+    margin-bottom: 0.5rem;
+    margin-block-start: 0.5em;
+
+}
+ .p-style {
+    align-self: center;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 4rem;
+ }
+#bday-input {
+    align-self: center;
+    padding:0.5rem;
+    border-radius: 0.2rem;
+    border-width: 0px;
+   
+    
+}
+
+#check-btn {
+    padding:0.5rem;
+    margin-top:2rem;
+    margin-bottom:4rem;
+    align-self: center;
+    border-radius: 0.2rem;
+    border-width: 0px;
+    display: block;
+    width: 30%;
+}
+.output {
+    font-size:2rem;
+    align-self: center;
+    color: white;
+}
+
+
